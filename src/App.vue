@@ -1,10 +1,11 @@
 <script setup>
-import  AppNav  from "./components/AppNav.vue";
+import AppLayout from './components/Layout/AppLayout.vue';
+
 </script>
 
 
 <template>
-    <AppNav/>
+    <AppLayout />
 </template>
 
 <style>
