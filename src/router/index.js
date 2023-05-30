@@ -2,6 +2,8 @@
 
 import Home from '../components/pages/Home.vue'
 import Contact from '../components/Pages/Contact.vue'
+import About from '../components/Pages/About.vue'
+import Company from '../components/Pages/Company.vue'
 
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -12,9 +14,14 @@ let routes = [
     component: Home,
   },
   {
-    path: '/',
-    name: '/',
-    component: Home,
+    path: '/About',
+    name: '/About',
+    component: About,
+  },
+  {
+    path: '/Company',
+    name: '/Company',
+    component: Company,
   },
   {
     path: '/Contact',
