@@ -1,6 +1,6 @@
 
 
-import Home from '../components/pages/Home.vue'
+import Home from '../components/Pages/Home.vue'
 import Contact from '../components/Pages/Contact.vue'
 import About from '../components/Pages/About.vue'
 import Company from '../components/Pages/Company.vue'
